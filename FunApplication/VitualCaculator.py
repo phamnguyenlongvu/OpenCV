@@ -1,4 +1,3 @@
-from tkinter import Y
 import cv2 as cv
 from cvzone.HandTrackingModule import HandDetector
  
@@ -85,7 +84,7 @@ while True:
         delayCounter += 1
         if delayCounter > 10:
             delayCounter = 0
-            
+
     # Display the Equatation
     cv.putText(img, myEquation, (810, 130), cv.FONT_HERSHEY_PLAIN, 2, (50, 50, 50), 2)
 
